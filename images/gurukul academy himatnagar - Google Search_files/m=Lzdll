@@ -1,0 +1,10 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.y("Lzdll");
+var Ufh=function(){if(!window.MutationObserver)return function(){};var a=new MutationObserver(function(b){b=_.n(b);for(var c=b.next();!c.done;c=b.next()){c=_.n(c.value.addedNodes);for(var d=c.next();!d.done;d=c.next())d=d.value,d instanceof HTMLLinkElement&&"LINK"===d.tagName&&d.href.includes("fonts.googleapis.com")&&document.head.contains(d)&&document.head.removeChild(d)}});return function(){a.observe(document.head,{childList:!0})}},Vfh=function(a){_.Zn.call(this,a.Ka);this.ka=null;this.oa=Ufh();
+this.fG=a.Qc.fG};_.G(Vfh,_.Zn);Vfh.kb=_.Zn.kb;Vfh.Ga=function(){return{Qc:{fG:_.eg}}};Vfh.prototype.configure=function(a){var b,c=null!=(b=_.qp(this.fG))?b:{},d;b=Object.assign({},{language:null!=(d=c.languageCode)?d:"en-GB",region:c.wra,v:"weekly"},a);var e,f;if(null==(e=globalThis.google)?0:null==(f=e.maps)?0:f.importLibrary)return this;this.ka=b;_.xcc(this.ka);return this};
+Vfh.prototype.importLibrary=function(){var a=_.wc.apply(0,arguments),b=this,c;return _.gf(function(d){if(1==d.ka)return d.yield(_.zcc.apply(null,_.qd(a)),2);c=d.oa;b.oa();return d.return(c)})};_.ao(_.Tfh,Vfh);
+_.z();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
